@@ -22,7 +22,9 @@ const register = () => {
                     <Link to="/">Log In</Link>
                 </span>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <Link to="/fileUp">
+                  <button type="submit" className="btn btn-primary">Submit</button>
+                </Link>
             </form>
 
             

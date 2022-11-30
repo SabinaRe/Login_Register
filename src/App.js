@@ -5,6 +5,7 @@ import {Login} from './Components/Login';     //named export
 import Register from './Components/Register'; //default export
 import {Dashboard} from './Components/Dashboard';
 import AxiosFetch from './Components/AxiosFetch';
+import FileUpload from './Components/FileUpload';
 function App() {
   return (
       <Router>
@@ -14,6 +15,7 @@ function App() {
             <Route path='/register' element={<Register/>}/>
             <Route path='/dashboard' element={<Dashboard/>}/>
             <Route path='/axios' element={<AxiosFetch/>}/>
+            <Route path='/fileUp' element={<FileUpload/>}/>
           </Routes>
         </div>
       </Router>
